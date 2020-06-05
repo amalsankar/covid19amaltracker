@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .bb{
+        padding: 20% 48%;
+
+    }
+    .btn{
+        background-color: green;
+        background-color: #4CAF50;
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+
+    }
+</style>
+<body>
+    <center>
+    <form action="index/<cn>" method="POST">
+        {%csrf_token%}
+    <div class="bb">
+
+        <input  type="text" name="cn" placeholder="Enter Country">
+        <br><br>
+        <button class='btn' type="submit">Live</button>
+    </div>
+</center>
+</form>
+</body>
+</html>

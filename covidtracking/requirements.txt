@@ -18,7 +18,7 @@ click==7.1.2
 colorama==0.4.3
 comtypes==1.1.7
 constantly==15.1.0
-cryptography==2.7
+cryptography==3.2
 daphne==2.3.0
 distlib==0.3.0
 Django==2.1.2
